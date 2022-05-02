@@ -151,11 +151,11 @@ function buildCharts(sample) {
 
         bar: {color: "black"},
         steps:[
-          {range: [0, 2], color: "red"},
-          {range: [2, 4], color: "orange"},
-          {range: [4, 6], color: "yellow"},
-          {range: [6, 8], color: "lightgreen"},
-          {range: [8, 10], color: "green"}
+          {range: [0, 2], color: "burlywood" },//color: "red"},
+          {range: [2, 4], color: "darksalmon"},//color: "orange"},
+          {range: [4, 6], color: "palevioletred"}, //color: "yellow"}, 
+          {range: [6, 8], color: "mediumpurple"},//color: "lightgreen"},
+          {range: [8, 10], color: "darkslateblue"}//color: "green"}
         ],
         dtick: 2
       }

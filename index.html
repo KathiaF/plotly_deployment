@@ -4,24 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge, Chrome = 1">
   <title>Belly Button Biodiversity</title>
   <link 
     rel="stylesheet" 
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container" >
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style="background:url(Resources/BellyButtonBacteria.jpeg); background-repeat: no-repeat;
+      background-size: cover; color:#340377; font-weight: bolder; font-family:monospace">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     
+    <div class="title">
+      <p>What Lives in Your Belly Button?</p>
+    </div>
+
+    <div class="intro">
+      <p>Many bacterial species are not well studied and many more remain unknown. 
+      Our goal is is to discover and document bacterial species that have ability to synthesize proteins that taste like beef
+      </p>
+
+    </div>
+
+  </br>
+
     <div class="row">
       <div class="col-md-2">
           <div class="well">
@@ -35,12 +53,18 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      
+    
       <div class="col-md-5">
         <div id="bar"></div>
+        <div class="chart">
+        <p>The belly button is home to many bacteria but can be overlooked when a person washes. Mostly, the bacteria are harmless, but they can multiply and cause an infection</p>
+        </div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <div class="chart">
+          <p> When taking care of personal hygiene, we don’t often think about our bellybuttons. But just like the rest of your body, they need to be cleaned. In fact, a 2012 studyTrusted Source found that 67 different types of bacteria are in the average bellybutton. </p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -50,6 +74,7 @@
     </div>
   </div>
 
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="charts.js"></script>

@@ -1,0 +1,22 @@
+.title {
+    font-family:monospace;
+    font-size: 5em;
+    font-weight: bold;
+    
+}
+
+.intro {
+    font-family: Geneva;
+    font-size: 1.5em;
+    background-color:rgb(200, 193, 244);
+    border-style: dotted;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.chart {
+    font-family: monospace;
+    font-size: 1em;
+    text-align: justify;
+    padding: 2%;
+}
