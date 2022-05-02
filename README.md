@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# plotly_deployment
+Module 12 Challenge
 
-You can use the [editor on GitHub](https://github.com/KathiaF/plotly_deployment/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Project Overview
+The purpose of this project is to help Roza to complete a dashboard that she needs to finish. She has a completed panel for demographic information and now needs to visualize the bacterial data for each volunteer. Specifically, her volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, Roza's volunteers will be able to identify whether that species is found in their navel.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Resources
+Data Source: samples.json
 
-### Markdown
+Software: Visual Studio Code 1.63.2
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Results
+### Deliverable 1:  Create a Horizontal Bar Chart
+| VS code | chart |
+| --- | --- |
+| <img src="/Resources/img1.png"> | <img src="/Resources/img2.png"> | 
 
-```markdown
-Syntax highlighted code block
+### Deliverable 2: Create a Bubble Chart
+| VS code | chart |
+| --- | --- |
+| <img src="/Resources/img3.png"> | <img src="/Resources/img4.png"> | 
 
-# Header 1
-## Header 2
-### Header 3
+### Deliverable 3: Create a Gauge Chart
+| VS code | chart |
+| --- | --- |
+| <img src="/Resources/img5.png"> | <img src="/Resources/img6.png"> | 
 
-- Bulleted
-- List
+### Deliverable 4: Customize the Dashboard
+customizations:
+- Add an image to the jumbotron.
+- Use a custom font with contrast for the colors.
+- Add more information about the project as a paragraph on the page.
+- Add information about what each graph visualizes, either under or next to each graph.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KathiaF/plotly_deployment/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<img src="/Resources/img7.png" width="80%" height="80%">
