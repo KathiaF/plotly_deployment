@@ -33,3 +33,6 @@ customizations:
 - Add information about what each graph visualizes, either under or next to each graph.
 
 <img src="/Resources/img7.png" width="80%" height="80%">
+
+### GitHub Pages
+[Belly Button Bacteria WebSite](https://kathiaf.github.io/plotly_deployment/)
